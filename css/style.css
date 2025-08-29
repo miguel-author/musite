@@ -1,0 +1,35 @@
+body {
+    background: linear-gradient(
+        to right,
+        #444 0%,      /* Primeira listra lateral */
+        #444 15%,     /* Fim da primeira listra */
+        #000 15%,     /* Início do centro preto */
+        #000 85%,     /* Fim do centro preto */
+        #444 85%,     /* Início da segunda listra lateral */
+        #444 100%     /* Fim da segunda listra */
+    );
+    color: #fff;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+button {
+    display: block;
+    margin: 40px auto; /* Centraliza horizontalmente e dá espaçamento do topo */
+    padding: 20px 40px; /* Aumenta o tamanho do botão */
+    font-size: 2rem;    /* Deixa o texto maior */
+    background-color: #444;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+button:hover {
+    background: #666;
+}
